@@ -9,6 +9,9 @@ class CommandResult {
         this.output = output;
     }
 
+
+
+    
     static CommandResult getDummyFailureResponse() {
         return new CommandResult(false, "");
     }
